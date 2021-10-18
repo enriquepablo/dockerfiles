@@ -1,11 +1,13 @@
 
-# Scilab NB 6.1.1 Dockerfile
+# Science Notebook Dockerfile
+
+Jupyter lab with kernels for Python, R, Julia, Scilab, and maxima.
 
 ## Build
 
 You can also pull the image from docker.io.
 
- $ podman build --rm --force-rm -t enriquepablo/scilab-nb:6.1.1 .
+ $ podman build --rm --force-rm -t --format docker enriquepablo/sciall-nb:1.0.0 .
 
 ## Run
 
