@@ -1,6 +1,8 @@
 
 # Scilab NB 6.1.1 Dockerfile
 
+Jupyter lab with scilab kernel.
+
 ## Build
 
 You can also pull the image from docker.io.
