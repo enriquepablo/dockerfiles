@@ -14,4 +14,4 @@ You can also pull the image from docker.io.
 Run a container, exposing the notebook at localhost:8888,
 and keeping the work in a local directory at /some/local/directory.
 
- $ podman run -ti --rm --name scilab-nb -p 8888:8888 -v /home/sci/nb:/some/local/directory enriquepablo/sciall-nb:1.0.0
+ $ podman run -ti --rm --name scilab-nb -p 8888:8888 -v /some/local/directory:/home/sci/nb enriquepablo/sciall-nb:1.0.0
